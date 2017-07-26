@@ -7,7 +7,34 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
+        //method call to write to a file
+        writeToFile();
+        //method call to read from a file
+        readFromFile();
+    }
+//private method to read from file
+    private static void readFromFile() {
+        File myFile = new File("Names.txt");
+        //FileReader always needs to be wrapped in Try/Catch.
+        try {
+            // to use buffered reader, you have to instantiate a reader first
+            FileReader reader = new FileReader(myFile);
+            //BufferedReader (more specific file reader) has method called readLine() to read data stream line by line
+            BufferedReader bufReader = new BufferedReader(reader);
+            String line = bufReader.readLine();
+            //ensure the line being fed into bufReader isn't null
+            while(line!=null) {
+                System.out.println(line);
+                line = bufReader.readLine(); // read the next line
+            }
+            bufReader.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("File not found!");
+        }
+    }
+//private method to write to file
+    private static void writeToFile() {
         //tank to hold file
         File myFile = new File("names.txt");
 
@@ -33,7 +60,6 @@ public class Main {
             e.printStackTrace();
             System.out.println(e);
         }
-
     }
 }
 
