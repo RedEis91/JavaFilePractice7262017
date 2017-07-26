@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb9a8603-618c-4d1f-a8a9-1cb4af19cab6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FilesClassPractice7262017/Main.class" afterPath="$PROJECT_DIR$/out/production/FilesClassPractice7262017/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/names.txt" afterPath="$PROJECT_DIR$/names.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
@@ -21,13 +19,13 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="244">
+              <caret line="96" column="5" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
               <folding>
-                <element signature="e#0#2602#0" expanded="true" />
+                <element signature="e#0#4386#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="method#readFromFile#0;class#Main#0" expanded="false" />
                 <element signature="method#writeToFile#0;class#Main#0" expanded="false" />
+                <element signature="method#writeToFile#1;class#Main#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -608,12 +606,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501089814180</updated>
-      <workItem from="1501089817873" duration="4130000" />
+      <workItem from="1501089817873" duration="4979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4130000" />
+    <option name="totallyTimeSpent" value="4979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="244" y="23" width="1036" height="752" extended-state="0" />
@@ -658,13 +656,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>37</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -692,13 +683,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="244">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="96" selection-end-column="5" />
           <folding>
-            <element signature="e#0#2602#0" expanded="true" />
+            <element signature="e#0#4386#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="method#readFromFile#0;class#Main#0" expanded="false" />
             <element signature="method#writeToFile#0;class#Main#0" expanded="false" />
+            <element signature="method#writeToFile#1;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
